@@ -1,0 +1,15 @@
+//
+// Generated file. Do not edit.
+//
+
+// ignore_for_file: lines_longer_than_80_chars
+
+import 'package:flutter_web_image_picker/flutter_web_image_picker.dart';
+
+import 'package:flutter_web_plugins/flutter_web_plugins.dart';
+
+// ignore: public_member_api_docs
+void registerPlugins(Registrar registrar) {
+  FlutterWebImagePicker.registerWith(registrar);
+  registrar.registerMessageHandler();
+}
